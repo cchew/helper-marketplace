@@ -70,6 +70,7 @@ dist/
           </div>
           <div class="col-md-7">
             <h2>Build system</h2>
+            <p>Using a build system is optional. You can simply edit the files with /app and /dist directly. However, using a build system allows LESS, JS and fonts to be compiled from source locally.</p>
             <p>To install, follow these steps:</p>
             <ul>
               <li>Install <a href="https://nodejs.org/en/">node.js</a>
@@ -82,12 +83,13 @@ dist/
           <ul>
             <li>Open a terminal at the root of the local folder and run:
               <ul>
-                <li><code>grunt dist</code> to compile JS, SCSS and fonts to <strong>/dist</strong>; or</li>
-                <li><code>grunt watch</code> to compile SCSS only on change</li>
+                <li><code>grunt dist</code> to compile JS, LESS and fonts to <strong>/dist</strong>; or</li>
+                <li><code>grunt watch</code> to compile LESS only on change</li>
               </ul>
             </li>
             <li>Open <strong>/index.html</strong> in the root</li>
           </ul>
+          <p>When pushing to GitHub, the /node_modules folder is ignored as it is only required locally. All other folders are pushed.</p>
         </div>
       </div>
       <hr>
