@@ -28,7 +28,8 @@ Using a build system is optional. You can simply edit the files with /app and /d
 * Install [node.js](https://nodejs.org/en/)
 * Verify install by opening a terminal and typing `node -v`
 * [Download the package](https://github.com/healthgovau/helper-marketplace/archive/master.zip) or clone the repo `git clone https://github.com/healthgovau/helper-marketplace.git` to a local folder of your choice
-* Open a terminal at the local folder and run `npm install`
+* Open a terminal at the local folder and install grunt via `npm install -g grunt-cli`
+* Run `npm install`
 
 ##To compile the app during development:
 

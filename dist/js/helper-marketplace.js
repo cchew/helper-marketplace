@@ -1,6 +1,6 @@
 /*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 [object Object]
+ * Bootstrap v1.0.0 ()
+ * Copyright 2011-2016 Department of Health
  * Licensed under the MIT license
  */
 
