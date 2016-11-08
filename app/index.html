@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Helper Marketplace</title>
+    <!-- Bootstrap -->
+    <link href="../dist/css/bootstrap.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Helper Marketplace</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+          </div><!--/.navbar-collapse -->
+        </div>
+      </nav>
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Helper Marketplace</h1>
+          <p>This is a starter template for the Help 4 Good application</p>
+          <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>-->
+        </div>
+      </div>
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-5">
+            <h2>App structure</h2>
+            <ul>
+              <li>All Bootstrap components are compiled via Grunt to <strong>/dist</strong></li>
+              <li>All app-specific components live in <strong>/app</strong></li>
+            </ul>
+            <pre><code>app/
+├── img/
+├── js/
+├── less/
+bootstrap/
+├── less/
+├── js/
+├── fonts/
+└── dist/
+    ├── css/
+    ├── js/
+    └── fonts/
+</code></pre>
+          </div>
+          <div class="col-md-7">
+            <h2>Build system</h2>
+            <p>To install, follow these steps:</p>
+            <ul>
+              <li>Install <a href="https://nodejs.org/en/">node.js</a>
+              <ul><li>Verify install by opening a terminal and typing <code>node -v</code></li></ul>
+            </li>
+            <li>Clone the repo <a href="https://github.com/healthgovau/helper-marketplace/">https://github.com/healthgovau/helper-marketplace/</a> to a local folder of your choice</li>
+            <li>Open a terminal at the local folder and run <code>npm install</code></li>
+          </ul>
+          <p>To compile the app during development:</p>
+          <ul>
+            <li>Open a terminal at the root of the local folder and run:
+              <ul>
+                <li><code>grunt dist</code> to compile JS, SCSS and fonts to <strong>/dist</strong>; or</li>
+                <li><code>grunt watch</code> to compile SCSS only on change</li>
+              </ul>
+            </li>
+            <li>Open <strong>/index.html</strong> in the root</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <footer>
+        <p>© 2016 Department of Health</p>
+      </footer>
+      </div> <!-- /container -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="../dist/js/bootstrap.js"></script>
+      <script src="js/ie10-viewport-bug-workaround.js"></script>      
+      <script src="js/core.js"></script>
+      <!--<script src="js/core.js"></script>-->
+    </body>
+  </html>
