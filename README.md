@@ -1,6 +1,6 @@
 #Helper Marketplace
 
-This is a starter template for the Help 4 Good application
+This is a starter template for the Help 4 Good application.
 
 ##App structure
 
@@ -10,16 +10,13 @@ This is a starter template for the Help 4 Good application
 ```
 app/
 ├── img/
-├── js/
-├── less/
-bootstrap/
 ├── less/
 ├── js/
-├── fonts/
-└── dist/
-    ├── css/
-    ├── js/
-    └── fonts/
+└── index.html
+dist/
+├── less/
+├── js/
+└── fonts/
 ```
 
 #Build system
