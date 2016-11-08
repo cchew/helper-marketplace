@@ -7,6 +7,7 @@ This is a starter template for the Help 4 Good application
 * All Bootstrap components are compiled via Grunt to /dist
 * All app-specific components live in /app
 
+```
 app/
 ├── img/
 ├── js/
@@ -19,6 +20,7 @@ bootstrap/
     ├── css/
     ├── js/
     └── fonts/
+```
 
 #Build system
 
