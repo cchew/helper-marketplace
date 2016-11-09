@@ -425,6 +425,12 @@ module.exports = function (grunt) {
           }
         ]
       }
+    },
+
+    serve: {
+        options: {
+            port: 9000
+        }
     }
 
   });
@@ -433,6 +439,7 @@ module.exports = function (grunt) {
   // These plugins provide necessary tasks.
   require('load-grunt-tasks')(grunt, { scope: 'devDependencies' });
   require('time-grunt')(grunt);
+  grunt.loadNpmTasks('grunt-serve');
 
   // Docs HTML validation task
   grunt.registerTask('validate-html', ['jekyll:docs', 'htmllint']);

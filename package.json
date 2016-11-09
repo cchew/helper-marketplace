@@ -29,13 +29,17 @@
     "grunt-jekyll": "~0.4.4",
     "grunt-jscs": "~3.0.1",
     "grunt-saucelabs": "~9.0.0",
+    "grunt-serve": "^0.1.6",
     "load-grunt-tasks": "~3.5.0",
     "markdown-it": "^7.0.0",
     "shelljs": "^0.7.0",
     "shx": "^0.1.2",
-    "time-grunt": "^1.3.0"},
+    "time-grunt": "^1.3.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "change-version": "node grunt/change-version.js",
+    "test": "grunt test",
+    "update-shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json"
   },
   "repository": {
     "type": "git",
@@ -66,11 +70,6 @@
   },
   "author": "Department of Health",
   "license": "MIT",
-  "scripts": {
-    "change-version": "node grunt/change-version.js",
-    "test": "grunt test",
-    "update-shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json"
-  },
   "less": "less/bootstrap.less",
   "style": "dist/css/bootstrap.css"
 }
